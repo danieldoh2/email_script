@@ -12,3 +12,7 @@ I want you to program me the following script in python.
 # For algorithmic efficiency, i highly recommend matching first on InstitutionName by creating a dataframe of all records in library that have the same InstitutionName as match_institution.
 #From there you can match on the first and last names.
 # Once you find the record or records (multiple is acceptable) inside the Library dataframe, fill it or their 'Email Match from TF' column with the value you captured earlier from the filtered_email's 'Email Address' column.
+
+
+
+=IF(TRIM(U2)<>"", U2, X2)
