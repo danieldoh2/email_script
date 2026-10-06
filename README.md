@@ -15,4 +15,4 @@ I want you to program me the following script in python.
 
 
 
-=IF(TRIM(U2)<>"", U2, X2)
+=IF(TRIM(U2)<>"", TRIM(U2), IF(TRIM(X2)<>"", TRIM(X2), ""))
