@@ -22,3 +22,6 @@ I want you to program me the following script in python.
 
 
 =IF(AJ2=TRUE,IF(AL2<>"",AL2,B2),"")
+
+
+=IF(AL2="",AN2,AL2)
