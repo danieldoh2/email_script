@@ -16,3 +16,6 @@ I want you to program me the following script in python.
 
 
 =IF(TRIM(U2)<>"", TRIM(U2), IF(TRIM(X2)<>"", TRIM(X2), ""))
+
+
+=INDEX(TEXTSPLIT(A1," "),1,COLUMNS(TEXTSPLIT(A1," "))-2)
