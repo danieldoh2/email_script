@@ -25,3 +25,6 @@ I want you to program me the following script in python.
 
 
 =IF(AL2="",AN2,AL2)
+
+
+=IF(AK2<>"","Yes","")
