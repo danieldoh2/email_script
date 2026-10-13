@@ -19,3 +19,6 @@ I want you to program me the following script in python.
 
 
 =IFERROR(INDEX(TEXTSPLIT(A1," "),1,COLUMNS(TEXTSPLIT(A1," "))-2)="ancillary",FALSE)
+
+
+=IF(AJ2=TRUE,IF(AL2<>"",AL2,B2),"")
